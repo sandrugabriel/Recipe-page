@@ -1,0 +1,112 @@
+*{
+    font-family: 'Young Serif';
+    
+}
+
+h1{
+    color: #8B513D;
+}
+
+ul{
+    padding-left: 15px;
+}
+
+li{
+    padding: 10px 5px;
+    color: #444343;
+}
+
+body{
+    margin: 0px;
+}
+
+td{
+    padding: 10px 15px;
+    
+}
+
+tr{
+    border-bottom: #444343 1px solid;
+}
+
+img{
+    width: 100%;
+}
+
+.containers{
+    padding: 5px 15px;
+}
+
+.header-title{
+    color: black;
+}
+
+.header-p{
+    font-family: 'Outfit';
+    color: #6C6B69;
+}
+
+.duration-container{
+    background-color: #fde6f5;
+    font-family: 'Outfit';
+    padding: 10px 20px;
+    border-radius: 12px;
+}
+
+.duration-h2{
+    color: #802B4C;
+    font-family: 'Outfit';
+    font-size: 18px;
+}
+
+.ul-duration{
+    padding-left: 10px;
+}
+
+.ingredient-container{
+    border-bottom: #9d9c9b 1px solid;
+}
+
+
+.instruction-container{
+    border-bottom: #9d9c9b 1px solid;
+}
+
+.td-num{
+    color: #8B513D;
+    font-weight: bold;
+}
+
+@media (min-width:100px) {
+
+    body{
+        background-color: #F3E5D8;
+        padding-top: 50px;
+    }
+
+    img{
+        border-radius: 12px;
+    }
+
+    .container-all{
+        border-radius: 12px;
+        width: 50%;
+        background-color: white;
+        justify-self: center;
+        padding: 20px;
+    }
+
+    td{
+        padding: 10px 50px;
+    }
+
+/* 
+    h1{
+        font-size: 18px;
+    }
+
+    p{
+        font-size: 15px;
+    } */
+
+}
